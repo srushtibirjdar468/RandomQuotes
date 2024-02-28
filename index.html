@@ -7,11 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1 id="quote"></h1>
-        <p id="author"></p>
+    <div class="navbar">
+        <div class="logo">
+            <h1>Random Quotes</h1>
+        </div>
+        <div class="other">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">signIn</a></li>
+            </ul>
+        </div>
     </div>
-    <button  onclick="fetchQuote()"  class="btn">New Quote</button>
+    <div id="container" class="myContainer">
+    </div>
+
+    <div class="myBtn">
+        <button  onclick="fetchQuote()"  class="btn">Load More..</button>
+    </div>
     
     <script src="app.js"></script>
 </body>
